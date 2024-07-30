@@ -3,10 +3,10 @@ const mysql = require('mysql2');
 const app = express();
 // Create MySQL connection
 const connection = mysql.createConnection({
-host: 'localhost',
-user: 'root',
-password: '',
-database: 'event'
+host: 'mysql-hanyu.alwaysdata.net',
+user: 'hanyu',
+password: 'Seagame2026@!',
+database: 'hanyu_event'
 });
 connection.connect((err) => {
 if (err) {
